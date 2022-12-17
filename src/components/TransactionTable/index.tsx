@@ -1,7 +1,7 @@
 import { Container } from './styles';
-import { formatCurrency } from '../utils/formatCurrency';
-import { formatDate } from '../utils/formatDate';
-import { useTransactions } from '../hooks/useTransactions';
+import { formatCurrency } from '../../utils/formatCurrency';
+import { formatDate } from '../../utils/formatDate';
+import { useTransactions } from '../../hooks/useTransactions';
 
 export function TransactionTable(){
 
